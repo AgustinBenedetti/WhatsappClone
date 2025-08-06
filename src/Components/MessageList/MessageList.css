@@ -1,0 +1,39 @@
+.container-message-list {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  overflow-y: auto; /* cambia de scroll a auto */
+  background-color: #1e1f1f;/*#161717*/
+  max-width: 100%;
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: transparent #161717;      /* Firefox */
+}
+
+/* Scrollbar para Chrome, Edge y otros Webkit */
+.container-message-list::-webkit-scrollbar {
+    width: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container-message-list::-webkit-scrollbar-track {
+  background: #161717;
+}
+
+.container-message-list::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+    border: 2px solid #161717;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.container-message-list:hover::-webkit-scrollbar,
+.container-message-list:hover::-webkit-scrollbar-thumb {
+  opacity: 1;
+}
+.container-message-list:hover {
+  scrollbar-color: #555 #161717;
+}
+.container-message-list::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}

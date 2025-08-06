@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-chat-screen{
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+}
+
+.container-chat{
+    display: flex;
+    flex-direction: column;
+    flex: 24;
+    height: 100dvh;
+    background-color: #1e1f1f;/*#161717*/
+
+}

@@ -1,0 +1,67 @@
+.container-message {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 2px 45px;
+  padding: 6px 8px 4px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-break: break-word;
+  background-color: #202c33;
+  color: white;
+  max-width: 518px;
+  width: fit-content;
+  position: relative;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Mensaje propio */
+.mine {
+  align-self: flex-end;
+  background-color: #005c4b;
+  border-bottom-right-radius: 0;
+}
+
+/* Mensaje del otro */
+.theirs {
+  align-self: flex-start;
+  background-color: #202c33;
+  border-bottom-left-radius: 0;
+}
+
+.message-text {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.message-text span:first-child {
+  max-width: 100%;
+}
+
+.message-time {
+  font-size: 11px;
+  opacity: 0.7;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+.delete-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #2a2a2a;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}

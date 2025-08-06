@@ -1,0 +1,88 @@
+.chat-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #161717; 
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chat-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px 8px 16px;
+  color: #ffffff; 
+}
+
+.app-title {
+  font-size: 1.32rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.chat-header-actions {
+  display: flex;
+  gap: 16px;
+  font-size: 1.3rem;
+  color: #fafafa; 
+  cursor: pointer;
+}
+
+.chat-search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #2e2f2f; 
+  border-radius: 20px;
+  padding: 11px 16px;
+  margin: 0 16px;
+  color: #abacac; 
+}
+
+.chat-search-bar svg {
+  font-size: 1.1rem;
+  margin-right: 10px;
+  color: #abacac; 
+}
+
+.chat-search-bar:hover {
+  border: 1px solid #202c33; 
+}
+
+.chat-search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  color: #8696a0; 
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+.chat-filters {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+.filter {
+    background-color: transparent;
+    border: 1px solid #2e2f2f; 
+    color: #a2a2a2;            
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.filter:hover {
+    background-color: #292a2a; 
+}
+
+.filter.active {
+    background-color: #103529; 
+    color: #d9fdd3;            
+    border: none;
+}

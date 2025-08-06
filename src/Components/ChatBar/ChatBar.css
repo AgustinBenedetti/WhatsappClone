@@ -1,0 +1,50 @@
+.container-chatbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161717;
+  height: 60px;
+  padding: 14px 16px 10px 16px;
+  border-left: 1px solid #2a2a2a;
+}
+
+.container-contact-chatbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container-image-chatbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-contact {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container-video-search-settings {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-video-search-settings button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-video-call svg {
+  font-size: 28px; /* ajustá a gusto */
+}

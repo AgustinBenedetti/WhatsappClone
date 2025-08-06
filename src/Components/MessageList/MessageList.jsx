@@ -1,12 +1,13 @@
 import React from 'react'
 import Message from '../Message/Message'
+import './MessageList.css'
 
 const MessageList = ({messages, deleteMessageById}) => {
     
     const lista_mensajes = messages.map(
         function(message){
             return(
-                <div>
+                
                     <Message
                     key={message.id}
                     emisor={message.emisor}
@@ -16,8 +17,6 @@ const MessageList = ({messages, deleteMessageById}) => {
                     status={message.status}
                     deleteMessageById={deleteMessageById}
                     />
-                    <hr />
-                </div>
             )
         }
     )
@@ -31,7 +30,7 @@ const MessageList = ({messages, deleteMessageById}) => {
     }
     
     return(
-        <div>
+        <div className='container-message-list'>
             {lista_mensajes}
         </div>
     )

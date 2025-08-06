@@ -5,44 +5,46 @@ const contacts = [
         id: 1,
         name: 'Luffy',
         descripcion: 'Piratas del caribe',
-        avatar:'https://i.pinimg.com/736x/59/cd/b2/59cdb2d00d15b6d2eb09a4e97ffae850.jpg',
+        avatar:'/image/Luffy_v3.png',
         last_connection: 'Hace 2 horas',
         connection_status: 'Offline',
+        last_message:'¡Seré el Rey de los Piratas!',
+        last_message_hora:'10:10 a. m.',
         messages: [
             {   emisor: 'YO', 
-                hora: '10:05', 
+                hora: '10:05 a. m.', 
                 id: 1, 
                 texto: 'Hola Luffy, ¿cómo estás?', 
                 status: 'visto' 
             },
             {   emisor: 'OTRO', 
-                hora: '10:06', 
+                hora: '10:06 a. m.', 
                 id: 2, 
                 texto: '¡Estoy genial! ¿Querés carne?', 
                 status: 'visto' 
             },
             {   emisor: 'YO', 
-                hora: '10:07', 
+                hora: '10:07 a. m.', 
                 id: 3, 
                 texto: 'Jajaja, siempre pensás en comida.', 
                 status: 'visto' 
             },
             {   emisor: 'OTRO', 
-                hora: '10:08', 
+                hora: '10:08 a. m.', 
                 id: 4, 
                 texto: '¡Obvio! ¡La carne es lo mejor del mundo!', 
                 status: 'visto' 
             },
             {   emisor: 'YO', 
-                hora: '10:09', 
+                hora: '10:09 a. m.', 
                 id: 5, 
                 texto: '¿Y cómo va la búsqueda del One Piece?', 
                 status: 'visto' 
             },
             {   emisor: 'OTRO', 
-                hora: '10:10', 
+                hora: '10:10 a. m.', 
                 id: 6, 
-                texto: '¡Seré el Rey de los Piratas! ¡No tengo dudas!', 
+                texto: '¡Seré el Rey de los Piratas!', 
                 status: 'visto' 
             }
         ]
@@ -51,48 +53,50 @@ const contacts = [
         id: 2,
         name: 'Eren',
         descripcion: 'Solo se vive una vez',
-        avatar:'https://i.pinimg.com/736x/ef/34/96/ef349658df76f93c52780ed014f31f39.jpg',
+        avatar:'/image/Eren.png',
         last_connection: 'Ahora',
         connection_status: 'Online',
+        last_message:'Ya no hay vuelta atrás.',
+        last_message_hora:'2:27 p. m.',
         messages: [
             {
                 emisor: 'YO',
-                hora: '14:22',
+                hora: '2:22 p. m.',
                 id: 1,
                 texto: 'Eren, ¿estás bien?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '14:23',
+                hora: '2:23 p. m.',
                 id: 2,
                 texto: 'Estoy decidido. Haré lo que sea necesario.',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '14:24',
+                hora: '2:24 p. m.',
                 id: 3,
                 texto: '¿Incluso si te vuelven enemigo del mundo?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '14:25',
+                hora: '2:25 p. m.',
                 id: 4,
                 texto: 'Si es por la libertad de mis amigos, sí.',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '14:26',
+                hora: '2:26 p. m.',
                 id: 5,
                 texto: 'Tené cuidado con lo que te convertís.',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '14:27',
+                hora: '2:27 p. m.',
                 id: 6,
                 texto: 'Ya no hay vuelta atrás.',
                 status: 'visto'
@@ -102,48 +106,50 @@ const contacts = [
     {   id: 3,
         name: 'Naruto',
         descripcion: 'Jinchuriki',
-        avatar:'https://i.pinimg.com/1200x/11/d4/13/11d41360d4d51ad3e07eca1f4bc7f8dd.jpg',
+        avatar:'/image/Naruto.png',
         last_connection: 'Ayer',
         connection_status: 'Offline',
+        last_message:'Gracias. ¡Vos también podés lograrlo!',
+        last_message_hora:'6:15 p. m.',
         messages: [
             {
                 emisor: 'YO',
-                hora: '18:10',
+                hora: '6:10 p. m.',
                 id: 1,
                 texto: '¡Naruto! ¿Cómo va eso, Hokage?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '18:11',
+                hora: '6:11 p. m.',
                 id: 2,
                 texto: '¡Estoy ocupado, pero nunca me rindo! ¡Dattebayo!',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '18:12',
+                hora: '6:12 p. m.',
                 id: 3,
                 texto: '¿Todavía entrenás todos los días?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '18:13',
+                hora: '6:13 p. m.',
                 id: 4,
                 texto: '¡Claro! Nunca se deja de aprender.',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '18:14',
+                hora: '6:14 p. m.',
                 id: 5,
                 texto: 'Me inspiras, Naruto.',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '18:15',
+                hora: '6:15 p. m.',
                 id: 6,
                 texto: 'Gracias. ¡Vos también podés lograrlo!',
                 status: 'visto'
@@ -155,48 +161,50 @@ const contacts = [
         id:4,
         name: 'Gon',
         descripcion: 'Cazador',
-        avatar:'https://i.pinimg.com/736x/5d/d5/1a/5dd51ab77f44420e4a51c81a006961e3.jpg',
+        avatar:'/image/Gon.png',
         last_connection: 'Hace 25 minutos',
         connection_status: 'Offline',
+        last_message:'¡Gracias! Pero solo soy yo mismo.',
+        last_message_hora:'9:35 p. m.',
         messages: [
             {
                 emisor: 'YO',
-                hora: '21:30',
+                hora: '9:30 p. m.',
                 id: 1,
                 texto: 'Hola Gon, ¿qué hacés?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '21:31',
+                hora: '9:31 p. m.',
                 id: 2,
                 texto: 'Hola! Estoy en una aventura con Killua.',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '21:32',
+                hora: '9:32 p. m.',
                 id: 3,
                 texto: '¿Encontraron algo interesante?',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '21:33',
+                hora: '9:33 p. m.',
                 id: 4,
                 texto: 'Sí, un bosque lleno de bestias raras.',
                 status: 'visto'
             },
             {
                 emisor: 'YO',
-                hora: '21:34',
+                hora: '9:34 p. m.',
                 id: 5,
                 texto: 'Cuidate mucho. Sos muy valiente.',
                 status: 'visto'
             },
             {
                 emisor: 'OTRO',
-                hora: '21:35',
+                hora: '9:35 p. m.',
                 id: 6,
                 texto: '¡Gracias! Pero solo soy yo mismo.',
                 status: 'visto'

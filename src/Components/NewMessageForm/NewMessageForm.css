@@ -1,0 +1,60 @@
+.new-message-form {
+  display: flex;
+  align-items: center;
+  margin: 0 12px 12px 12px;
+  padding: 5px;
+  background-color: #1e1f1f;/*#161717*/
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 62px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  border-radius: 30px;
+  flex: 1;
+  padding: 8px 12px;
+  gap: 12px;
+}
+
+.input-container input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  flex: 1;
+}
+
+/* Íconos dentro del input redondeado */
+.icon-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Botón verde solo cuando hay texto */
+.send-button {
+  background-color: #00a884;
+  border: none;
+  color: white;
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.send-button:hover {
+  background-color: #00b191;
+}

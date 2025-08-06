@@ -1,0 +1,59 @@
+.container-navbar-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex:1.7; 
+  height: 100dvh;
+  background-color: #1d1f1f;
+  border-right: 1px solid #343636;
+}
+
+/* Parte superior con los íconos */
+.high-part-navbar,
+.low-part-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  color: #aebac1;
+}
+
+/* Estilo general de los botones */
+.high-part-navbar button,
+.low-part-navbar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-size: 1.4rem; /* Tamaño del ícono */
+  color: #fafafa;
+}
+
+/* Efecto hover */
+.high-part-navbar button:hover,
+.low-part-navbar button:hover {
+  background-color: #292a2a;
+}
+
+/* Imagen de perfil en la parte inferior */
+.low-part-navbar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: border 0.2s ease;
+  border: 2px solid transparent;
+  margin-bottom: 15px;
+}
+
+.low-part-navbar img:hover {
+  border: 2px solid #292a2a;
+}

@@ -55,8 +55,10 @@ const ChatScreen = () => {
 
     return (
         <div className="container-chat-screen">
-            <NavBarSide />
-            <div className="container-contact-list-and-search">
+            <div className="container-navbarside">
+                <NavBarSide />
+            </div>
+            <div className="container-contact-list-and-searche">
                 <ChatSearchAndFilters />
                 <ContactList contacts={contactsState} />
             </div>

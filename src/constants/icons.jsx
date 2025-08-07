@@ -12,6 +12,7 @@ import { MdOutlineVideocam } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { RiEmojiStickerLine } from "react-icons/ri";
 import { MdMicNone } from "react-icons/md";
+import { IoIosArrowBack } from "react-icons/io";
 
 
 const ICONS = {
@@ -28,7 +29,8 @@ const ICONS = {
     video: MdOutlineVideocam,
     delete: RiDeleteBin6Line,
     emoji: RiEmojiStickerLine,
-    mic: MdMicNone
+    mic: MdMicNone,
+    back: IoIosArrowBack
 };
 
 export default ICONS;

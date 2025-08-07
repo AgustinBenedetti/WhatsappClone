@@ -3,28 +3,28 @@
   align-items: center;
   justify-content: space-between;
   background-color: #161717;
-  height: 60px;
-  padding: 14px 16px 10px 16px;
+  height: clamp(60px, 6.85vh, 90px);
+  padding: 0.875rem 1rem 0.625rem 1rem;
   border-left: 1px solid #2a2a2a;
 }
 
 .container-contact-chatbar {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
   font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container-image-chatbar img {
-  width: 40px;
-  height: 40px;
+  width: clamp(40px, 2.86vw, 60px);
+  height: clamp(40px, 4.57vh, 60px);
   border-radius: 50%;
   object-fit: cover;
 }
 
 .name-contact {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -32,7 +32,7 @@
 .container-video-search-settings {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .container-video-search-settings button {
@@ -40,11 +40,42 @@
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 }
 
 .btn-video-call svg {
-  font-size: 28px; /* ajustá a gusto */
+  font-size: 1.75rem; 
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  padding: 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .back-button {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .container-chatbar {
+    padding: 0.35rem 0.3rem 0.3rem 0.3rem;
+  }
+  .container-video-search-settings{
+    display: none;
+  }
 }

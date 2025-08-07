@@ -22,8 +22,10 @@ const NewMessageForm = ({ addNewMessage }) => {
     return (
         <form className="new-message-form" onSubmit={handleSubmit}>
             <div className="input-container">
-                <button type="button" className="icon-button"><Plus /></button>
-                <button type="button" className="icon-button"><Emoji /></button>
+                <div className="emoji-container">
+                    <button type="button" className="icon-button"><Plus /></button>
+                    <button type="button" className="icon-button"><Emoji /></button>
+                </div>
                 <input
                     type="text"
                     placeholder="Escribe un mensaje"

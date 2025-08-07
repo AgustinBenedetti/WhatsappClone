@@ -9,11 +9,11 @@
   scrollbar-color: transparent #161717;      /* Firefox */
 }
 
-/* Scrollbar para Chrome, Edge y otros Webkit */
+
 .container-message-list::-webkit-scrollbar {
-    width: 8px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  width: clamp(8px, 0.57vw, 16px);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .container-message-list::-webkit-scrollbar-track {
@@ -21,11 +21,11 @@
 }
 
 .container-message-list::-webkit-scrollbar-thumb {
-    background-color: #555;
-    border-radius: 10px;
-    border: 2px solid #161717;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  background-color: #555;
+  border-radius: 10px;
+  border: 2px solid #161717;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 .container-message-list:hover::-webkit-scrollbar,
 .container-message-list:hover::-webkit-scrollbar-thumb {

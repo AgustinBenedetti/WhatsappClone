@@ -12,13 +12,18 @@ const ContactScreen = () => {
 
     return (
         <div className="container-contact-screen">
-            <NavBarSide />
+            <div className="container-navbar">
+                <NavBarSide />
+            </div>
+
             <div className="container-contact-list-and-search">
-            <ChatSearchAndFilters />
-            <ContactList contacts={contactsState} />
+                <ChatSearchAndFilters />
+                <ContactList contacts={contactsState} />
+            </div>
+            <div className="container-whatsapp-download">
+                <WhatsAppDownload />
             </div>
             
-            <WhatsAppDownload />
         </div>
     )
 }
